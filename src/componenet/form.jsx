@@ -27,6 +27,7 @@ class Form extends Component {
         return (
             <div className="container">
                 <form onSubmit={this.handleSubmit}>
+                    <p>FEEDBACK FORMU</p>
                     <div className="form-group">
                         <div className="form-group">
                             <label htmlFor="formGroupExampleInput">Ad soyad və ata adı</label>
@@ -38,7 +39,7 @@ class Form extends Component {
                             <input type="phone" onChange={this.clickInput2}  className="form-control " id="formGroupExampleInput"  />
                             <small id="numberHelp" className="form-text text-muted">Telefon nömrəsini daxil edin </small>
                         </div>
-                        <label htmlFor="exampleInputEmail1">Email address</label>
+                        <label htmlFor="exampleInputEmail1">Elektron poçt ünvanı</label>
                         <input type="email" onChange={this.clickInput3}  className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"  />
                         <small id="emailHelp" className="form-text text-muted ">Elektron poçt adresinizi daxil edin:(mes:meselen@gmail.com)</small>
                     </div>
