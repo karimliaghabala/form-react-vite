@@ -1,0 +1,14 @@
+.container{
+  width: 400px;
+  background-color: aquamarine;
+}
+
+button{
+  margin: 10px;
+}
+.form-text{
+  display: none;
+}
+.error{
+  background-color: red;
+}
